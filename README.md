@@ -1,16 +1,22 @@
-# React + Vite
+# Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
+A full-stack web application to create, update, delete and track tasks efficiently.
 
-Currently, two official plugins are available:
+## Tech Stack
+- Backend: Java, Spring Boot, RESTful APIs
+- Frontend: ReactJS, HTML, CSS, Tailwind CSS
+- Database: MySQL
+- Tools: Maven, Postman, IntelliJ IDEA
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Create, update and delete tasks
+- Task prioritization and status tracking
+- Workflow management
+- REST API integration
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+1. Clone this repository
+2. Set up MySQL database
+3. Run the Spring Boot backend
+4. Open the ReactJS frontend
